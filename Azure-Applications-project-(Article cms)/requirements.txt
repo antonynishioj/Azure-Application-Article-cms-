@@ -1,0 +1,18 @@
+Flask==2.3.3
+Flask-Login==0.6.3
+Flask-Session==0.5.0
+Flask-SQLAlchemy==3.0.5
+SQLAlchemy==2.0.21
+alembic==1.12.0
+
+# Azure SDK (modern replacements for old azure-storage)
+azure-core==1.29.6
+azure-storage-blob==12.18.3
+azure-identity==1.15.0
+
+# MSAL for authentication
+msal==1.25.0
+
+# Other utilities
+certifi
+cffi>=1.16.0  # prebuilt wheels available, no need for compiler
